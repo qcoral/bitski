@@ -3,6 +3,11 @@
 ## Parts list:
 
 - esp32-s3-1-n8 (8mb ram)
+- bq25185 charging
+- voltage regulator??
+- usb c part??
+
+- ???
 
 ## Datasheets:
 
