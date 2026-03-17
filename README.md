@@ -17,6 +17,12 @@ Questionable ones
 let's add these bottom ones later once we've figured out the basics
 
 - Microphone?
-    - Imagine the audio visualizations with this??
+  - Imagine the audio visualizations with this??
+
+^^^ OK NVM
+
 - Temperature sensor?
-    - Imagine how useful this could be??
+  - Imagine how useful this could be??
+- BMP580
+
+Ok need to figure out IMU
