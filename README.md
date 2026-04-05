@@ -7,22 +7,9 @@ Feature list (planned):
 - WiFi
 - Bluetooth
 - LiPo battery management
-- High quality IMU
+- High quality 9-axis IMU
+- Pressure and altitude sensing
+- Temperature & Humidity sensing
 - 4 buttons?
-- Power switch between battery
+- Power switch
 - ??? by ??? 0402 LED matrix
-
-Questionable ones
-
-let's add these bottom ones later once we've figured out the basics
-
-- Microphone?
-  - Imagine the audio visualizations with this??
-
-^^^ OK NVM
-
-- Temperature sensor?
-  - Imagine how useful this could be??
-- BMP580
-
-Ok need to figure out IMU
