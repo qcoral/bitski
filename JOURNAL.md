@@ -92,3 +92,19 @@ Here's where I ended up landing with the layout:
 and here's a paper printout!
 
 ![image](https://user-cdn.hackclub-assets.com/019d5fbc-f75a-7e06-9288-20334e1ecd66/paste-1775427712134.png)
+
+## April 28th, 2026
+
+Sorry this ended up taking awhile to get back to! Was really busy travelling. Gave a talk at RMRRF!
+
+Anyhow, back to where we landed. Updated the schematic
+
+Only spent ~30 min on this today? Just did some basic schematic stuff in order to fill more in
+
+Turns out the IS31FL3741, which I was originally planning to use, was not actually in stock! Instead we are going to chain two IS31Fl3731's instead and then bang them together in firmware. Hopefully the lookup table works.
+
+A little worried ab i2c sync, but we'll see how that goes. I really need to stop getting lost in a sea of component choosing and actually stick to something. I think part selection ends here, i've cut down on a bunch of stuff for now.
+
+Anyhow, finished the part selection for the sht40 clone! this one was pretty simple.
+
+also updated my resources list :)

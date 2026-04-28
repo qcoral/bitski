@@ -21,7 +21,9 @@ want to add:
 - https://documentation.espressif.com/esp32-s3-mini-1_mini-1u_datasheet_en.pdf
 - https://www.ti.com/lit/ds/symlink/bq25185.pdf?ts=1772714566377
 - https://docs.espressif.com/projects/esp-hardware-design-guidelines/en/latest/esp32s3/schematic-checklist.html waow this is cool
-- https://jlcpcb.com/partdetail/BoschSensortec-BMP580/C22391138
+- [BMP580 Datasheet](https://jlcpcb.com/partdetail/BoschSensortec-BMP580/C22391138)
+- [IS31Fl3731 Datasheet](https://lumissil.com/assets/pdf/core/IS31FL3731_DS.pdf)
+- [SHT40/GXHT40 Datasheet](https://download.mikroe.com/documents/datasheets/SHT40%20Datasheet.pdf)
 
 ## Inspo
 
