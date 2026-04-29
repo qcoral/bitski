@@ -108,3 +108,13 @@ A little worried ab i2c sync, but we'll see how that goes. I really need to stop
 Anyhow, finished the part selection for the sht40 clone! this one was pretty simple.
 
 also updated my resources list :)
+
+## April 29th, 2026
+
+Not too much done today. Just spent a tiny bit of time combing through datasheets and trying to figure out IOMUX functionality. Found [this table](https://documentation.espressif.com/esp32-s3_datasheet_en.pdf#cd-append-consolid-pin-overview)
+
+![image](https://cdn.hackclub.com/019dd81d-86d5-76ae-8b59-dae42fedaf70/paste-1777447305533.png)
+
+That's a lot!
+
+need to go to sleep. insane things coming up.

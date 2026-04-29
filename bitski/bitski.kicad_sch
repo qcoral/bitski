@@ -7058,7 +7058,7 @@
 	)
 	(text "User Inputs!"
 		(exclude_from_sim no)
-		(at 194.564 119.888 0)
+		(at 176.784 122.428 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7221,7 +7221,7 @@
 		(uuid "940742b4-ee91-4bc6-85df-32044a8a0841")
 	)
 	(junction
-		(at 199.39 139.7)
+		(at 181.61 142.24)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "968da7aa-f3ec-4a70-9ef3-34d987ca11f3")
@@ -7251,7 +7251,7 @@
 		(uuid "ac527a84-688b-467c-8487-7c49c2361ffb")
 	)
 	(junction
-		(at 191.77 139.7)
+		(at 173.99 142.24)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b19019e5-0817-4705-b5bb-c9d2a75ff429")
@@ -7269,7 +7269,7 @@
 		(uuid "b7e7f8ad-8db6-4c99-bb24-fcd77d1fb892")
 	)
 	(junction
-		(at 209.55 139.7)
+		(at 191.77 142.24)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ca077015-f6f7-4cad-949c-5d31365246db")
@@ -7336,7 +7336,7 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 139.7) (xy 199.39 144.78)
+			(xy 181.61 142.24) (xy 181.61 147.32)
 		)
 		(stroke
 			(width 0)
@@ -7466,13 +7466,23 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 139.7) (xy 209.55 139.7)
+			(xy 181.61 142.24) (xy 191.77 142.24)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "214dcfaa-8065-4fff-8e90-fdefc36bfca3")
+	)
+	(wire
+		(pts
+			(xy 45.72 143.51) (xy 49.53 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "223b730e-af86-483a-b76d-d4b44975d175")
 	)
 	(wire
 		(pts
@@ -7526,7 +7536,7 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 139.7) (xy 226.06 135.89)
+			(xy 208.28 142.24) (xy 208.28 138.43)
 		)
 		(stroke
 			(width 0)
@@ -7846,6 +7856,16 @@
 	)
 	(wire
 		(pts
+			(xy 45.72 140.97) (xy 49.53 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67726db2-a05f-4396-a2ec-ff97da84a715")
+	)
+	(wire
+		(pts
 			(xy 31.75 269.24) (xy 39.37 269.24)
 		)
 		(stroke
@@ -7876,7 +7896,7 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 135.89) (xy 173.99 139.7)
+			(xy 156.21 138.43) (xy 156.21 142.24)
 		)
 		(stroke
 			(width 0)
@@ -7966,7 +7986,7 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 135.89) (xy 191.77 139.7)
+			(xy 173.99 138.43) (xy 173.99 142.24)
 		)
 		(stroke
 			(width 0)
@@ -8006,7 +8026,7 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 139.7) (xy 191.77 139.7)
+			(xy 156.21 142.24) (xy 173.99 142.24)
 		)
 		(stroke
 			(width 0)
@@ -8066,7 +8086,7 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 139.7) (xy 199.39 139.7)
+			(xy 173.99 142.24) (xy 181.61 142.24)
 		)
 		(stroke
 			(width 0)
@@ -8176,7 +8196,7 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 139.7) (xy 226.06 139.7)
+			(xy 191.77 142.24) (xy 208.28 142.24)
 		)
 		(stroke
 			(width 0)
@@ -8316,7 +8336,7 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 135.89) (xy 209.55 139.7)
+			(xy 191.77 138.43) (xy 191.77 142.24)
 		)
 		(stroke
 			(width 0)
@@ -8396,7 +8416,7 @@
 	)
 	(global_label "USRINPUT2"
 		(shape input)
-		(at 186.69 130.81 180)
+		(at 168.91 133.35 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8406,7 +8426,7 @@
 		)
 		(uuid "009f495a-00fa-42c9-97c6-110892ce0333")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 173.1819 130.81 0)
+			(at 155.4019 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8506,7 +8526,7 @@
 	)
 	(global_label "USRINPUT3"
 		(shape input)
-		(at 204.47 130.81 180)
+		(at 186.69 133.35 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8516,7 +8536,7 @@
 		)
 		(uuid "351d7a44-3e1c-41f9-aa8c-1cbba628f593")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 190.9619 130.81 0)
+			(at 173.1819 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8638,7 +8658,7 @@
 	)
 	(global_label "USRINPUT1"
 		(shape input)
-		(at 168.91 130.81 180)
+		(at 151.13 133.35 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8648,7 +8668,7 @@
 		)
 		(uuid "85ca9d61-a7c7-4321-8164-35def286415f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 155.4019 130.81 0)
+			(at 137.6219 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8682,51 +8702,51 @@
 	)
 	(global_label "SHT40_SCL"
 		(shape input)
-		(at 102.87 146.05 0)
+		(at 45.72 143.51 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "a1149b2a-91a3-45d1-a710-051b411280f7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 116.257 146.05 0)
+			(at 32.333 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
 	)
 	(global_label "SHT40_SDA"
 		(shape input)
-		(at 102.87 140.97 0)
+		(at 45.72 140.97 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "a3c6bf6a-e5b0-4ca9-9105-031bc6692789")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 116.3175 140.97 0)
+			(at 32.2725 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
 	)
 	(global_label "USRINPUT4"
 		(shape input)
-		(at 220.98 130.81 180)
+		(at 203.2 133.35 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8736,7 +8756,7 @@
 		)
 		(uuid "adce2af3-9b4f-45f9-9b65-6afa782d5ee0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 207.4719 130.81 0)
+			(at 189.6919 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10984,7 +11004,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push_45deg")
-		(at 223.52 133.35 0)
+		(at 205.74 135.89 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10993,7 +11013,7 @@
 		(fields_autoplaced yes)
 		(uuid "66cca161-40f3-46ec-b18d-7718fe0289b4")
 		(property "Reference" "SW5"
-			(at 223.52 125.73 0)
+			(at 205.74 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11001,7 +11021,7 @@
 			)
 		)
 		(property "Value" "SW_Push_45deg"
-			(at 223.52 128.27 0)
+			(at 205.74 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11009,7 +11029,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 223.52 133.35 0)
+			(at 205.74 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11018,7 +11038,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 223.52 133.35 0)
+			(at 205.74 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11027,7 +11047,7 @@
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
-			(at 223.52 133.35 0)
+			(at 205.74 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11860,7 +11880,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push_45deg")
-		(at 171.45 133.35 0)
+		(at 153.67 135.89 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11869,7 +11889,7 @@
 		(fields_autoplaced yes)
 		(uuid "876e3641-fb6e-4891-ab2b-d397507c53cd")
 		(property "Reference" "SW2"
-			(at 171.45 125.73 0)
+			(at 153.67 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11877,7 +11897,7 @@
 			)
 		)
 		(property "Value" "SW_Push_45deg"
-			(at 171.45 128.27 0)
+			(at 153.67 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11885,7 +11905,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 171.45 133.35 0)
+			(at 153.67 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11894,7 +11914,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 171.45 133.35 0)
+			(at 153.67 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11903,7 +11923,7 @@
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
-			(at 171.45 133.35 0)
+			(at 153.67 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12131,7 +12151,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push_45deg")
-		(at 207.01 133.35 0)
+		(at 189.23 135.89 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12140,7 +12160,7 @@
 		(fields_autoplaced yes)
 		(uuid "93883626-71dd-4ead-8bf8-49d664e24ea1")
 		(property "Reference" "SW4"
-			(at 207.01 125.73 0)
+			(at 189.23 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12148,7 +12168,7 @@
 			)
 		)
 		(property "Value" "SW_Push_45deg"
-			(at 207.01 128.27 0)
+			(at 189.23 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12156,7 +12176,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 207.01 133.35 0)
+			(at 189.23 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12165,7 +12185,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 207.01 133.35 0)
+			(at 189.23 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12174,7 +12194,7 @@
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
-			(at 207.01 133.35 0)
+			(at 189.23 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13760,7 +13780,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push_45deg")
-		(at 189.23 133.35 0)
+		(at 171.45 135.89 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13769,7 +13789,7 @@
 		(fields_autoplaced yes)
 		(uuid "fca074d3-a401-4f0b-98c5-07f02d7809d3")
 		(property "Reference" "SW3"
-			(at 189.23 125.73 0)
+			(at 171.45 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13777,7 +13797,7 @@
 			)
 		)
 		(property "Value" "SW_Push_45deg"
-			(at 189.23 128.27 0)
+			(at 171.45 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13785,7 +13805,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 189.23 133.35 0)
+			(at 171.45 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13794,7 +13814,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 189.23 133.35 0)
+			(at 171.45 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13803,7 +13823,7 @@
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
-			(at 189.23 133.35 0)
+			(at 171.45 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13898,7 +13918,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 199.39 144.78 0)
+		(at 181.61 147.32 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13907,7 +13927,7 @@
 		(fields_autoplaced yes)
 		(uuid "ff9e9301-e384-4907-b5cd-f6596a39f192")
 		(property "Reference" "#PWR015"
-			(at 199.39 151.13 0)
+			(at 181.61 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13916,7 +13936,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 199.39 149.86 0)
+			(at 181.61 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13924,7 +13944,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 199.39 144.78 0)
+			(at 181.61 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13933,7 +13953,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 199.39 144.78 0)
+			(at 181.61 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13942,7 +13962,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 199.39 144.78 0)
+			(at 181.61 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
