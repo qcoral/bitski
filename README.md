@@ -1,5 +1,7 @@
 # bitski
 
+[![View PCB on KiCanvas](https://hack.club/pcb-badge)](https://kicanvas.org/?github=https://github.com/qcoral/bitski/tree/main/pcb)
+
 yup. it's the thing!
 
 Inital sketch of what I am attempting to make:
