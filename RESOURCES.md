@@ -17,7 +17,7 @@ want to add:
 
 ## Datasheets:
 
-- https://docs.espressif.com/projects/esp-faq/en/latest/software-framework/peripherals/usb.html
+- [ESP32S3 USB peripherals](https://docs.espressif.com/projects/esp-faq/en/latest/software-framework/peripherals/usb.html)
 - https://documentation.espressif.com/esp32-s3-mini-1_mini-1u_datasheet_en.pdf
 - https://docs.espressif.com/projects/esp-hardware-design-guidelines/en/latest/esp32s3/schematic-checklist.html waow this is cool
 - [BMP580 Datasheet](https://jlcpcb.com/partdetail/BoschSensortec-BMP580/C22391138)
@@ -28,7 +28,6 @@ want to add:
 ## Inspo
 
 - [5x7 led matrix](https://www.youtube.com/watch?v=y6ta3csMIm4)
--
 
 ## Other useful links:
 

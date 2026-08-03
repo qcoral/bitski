@@ -118,3 +118,48 @@ Not too much done today. Just spent a tiny bit of time combing through datasheet
 That's a lot!
 
 need to go to sleep. insane things coming up.
+
+## July 24th, 2026
+
+HOLY so much has happened. I really need to actually finish this thing!
+
+## July 27th, 2026
+
+Finished the BMP580 schematic part!
+![image](https://cdn.hackclub.com/019fa66e-14d5-7f38-bb8d-25e644711473/paste-1785203659284.png)
+
+I'm basing it off of the Adafruit BMP580 schematic implementation [here](https://learn.adafruit.com/assets/139375). Seems relatively straightforward? I might have to mess around with the i2c config but it should be fine
+w
+
+## July 28th, 2026
+
+Ok so turns out I did not finish the battery wiring I think (?) so I am now looking at that
+
+ALSO! The datasheet page to reference is page 41 for the esp32-s3-mini-1u:
+
+![image](https://cdn.hackclub.com/019faaf9-d256-7694-a45d-a3d47434bdcc/paste-1785279926553.png)
+
+I should check this thing often ^^
+
+## August 2nd, 2026
+
+Finishing the battery stuff today! Nifty table:
+
+![image](https://cdn.hackclub.com/019fc41d-a0a7-76d0-a4cd-235633e38d49/paste-1785701702610.png)
+
+Overall, I think I spent roughly 2 hours of solid work time? I worked from 4-9 but a lot of it was staggered.
+
+Learned SO SO much:
+
+- PD triggers are mainly for higher voltages! If a device is capable of 5v3A it'll just dispense that anyways if the slave device doesn't have any PD negotiation circuitry
+- Bosch uses Verilog for the BMP580 when describing the i2c address config options! i.e 7'h47 = 7-bit hex, 0x47. This was really interesting to know.
+
+Also putting solder jumpers everywhere so that I can kind of "assemble" the board piece by piece once i actually get it!
+
+![image](https://cdn.hackclub.com/019fc53f-1243-796e-8105-2eefb8eec807/paste-1785720672706.png)
+
+A lot of today was just checking over to make sure that the components I currently have were actually wired up! I.e the configurations were correct, all the pins that needed to be wired were wired, etc.
+
+There's still some more to go through and notably I still need to set up the config resistors on the bq25185, but generally speaking things should be OK (?)
+
+God this is fun.
