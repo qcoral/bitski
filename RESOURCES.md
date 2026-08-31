@@ -13,7 +13,7 @@ Here lies a list of links & notes I've used along the way.
 
 want to add:
 
-- microphone
+- microphone <- separate module!
 
 ## Datasheets:
 
@@ -21,13 +21,14 @@ want to add:
 - https://documentation.espressif.com/esp32-s3-mini-1_mini-1u_datasheet_en.pdf
 - https://docs.espressif.com/projects/esp-hardware-design-guidelines/en/latest/esp32s3/schematic-checklist.html waow this is cool
 - [BMP580 Datasheet](https://jlcpcb.com/partdetail/BoschSensortec-BMP580/C22391138)
-- [IS31Fl3731 Datasheet](https://lumissil.com/assets/pdf/core/IS31FL3731_DS.pdf)
+- [IS31FL3731 Datasheet](https://lumissil.com/assets/pdf/core/IS31FL3731_DS.pdf)
 - [SHT40/GXHT40 Datasheet](https://download.mikroe.com/documents/datasheets/SHT40%20Datasheet.pdf)
 - [BQ25185 Datasheet](https://www.ti.com/lit/ds/symlink/bq25185.pdf?ts=1772714566377)
 
-## Inspo
+## Inspo/Interesting
 
 - [5x7 led matrix](https://www.youtube.com/watch?v=y6ta3csMIm4)
+- [The green gap](https://hmntl.illinois.edu/news/63802)
 
 ## Other useful links:
 

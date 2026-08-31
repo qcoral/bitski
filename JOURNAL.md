@@ -163,3 +163,40 @@ A lot of today was just checking over to make sure that the components I current
 There's still some more to go through and notably I still need to set up the config resistors on the bq25185, but generally speaking things should be OK (?)
 
 God this is fun.
+
+## August 15 2026.
+
+Once again it's been a minute. I really need to get better at this.
+
+Well I guess update #1: I found a battery at the office to use for this thing! It's 1000 mAh, should be pretty good
+
+(note to self: take pic of battery)
+
+Time to figure out the power requirements!
+
+One really interesting thing to note is that the IS31FL3731 wires everything internally as 2 9-pin charlieplexed blocks of 72 LEDs, not a block of 18 pins! That's why the max is 144 LEDs instead of n \* (n - 1) = 240 LEDs.
+
+other interesting things I learned about:
+
+- [The green gap!](https://hmntl.illinois.edu/news/63802)
+- Turns out white LEDs are just blue LEDs covered in phosphor!
+
+## August 30th, 2026
+
+OK I REALLY NEED TO GET BACK ON THIS WOW
+
+First things first - need to get a 5v boost for the LEDs! I didn't realize white LEDs have such a high voltage drop (almost 3.3v), which causes issues if I wire it up to that directly!
+
+For the math on the pixels, here's what I got:
+
+ILED = 64.7 / REXT
+
+if REXT = 20k ohm as recommended, then ILED (average LED current) = 3.2mA
+
+IOUT = ILED / 10.5
+
+subbing in the terms
+
+IOUT = 34mA peaks
+
+If each column has up to 16 LEDs, that could get us to 544 mA tops per IC if all are lit at 100% brightness. That's a lot!
